@@ -7,22 +7,22 @@
 
 ## For Frontend_task 1
 
-step-1: go to frontend-task-1/creditcard  (cd Frontend-task-1/creditcard/)
-step-2: install node module
-step-3: run npm start (it will redirect to application page on browser)
+step-1: go to frontend-task-1/creditcard  (cd Frontend-task-1/creditcard/)<br/>
+step-2: install node module<br/>
+step-3: run npm start (it will redirect to application page on browser)<br/>
 
 
 ## For Frontend_task 2
-step-1: go to frontend-task-2 
-step-2: open html file and run this file in any browser or click on go line in vsCode.
+step-1: go to frontend-task-2 <br/>
+step-2: open html file and run this file in any browser or click on go line in vsCode.<br/>
 
 ## For Backend_task
- step-1: got to Backend Task ( cd Backend_task )
- step-2: install node module in backend_task
- step-3: run server.js (node server.js )
+ step-1: got to Backend Task ( cd Backend_task )<br/>
+ step-2: install node module in backend_task<br/>
+ step-3: run server.js (node server.js )<br/>
 
  ### All api address
- user Register(post method): http://localhost:5000/api/user/register
+ user Register(post method): http://localhost:5000/api/user/register 
 
  user login(post method): http://localhost:5000/api/user/login
 
@@ -42,7 +42,7 @@ step-2: open html file and run this file in any browser or click on go line in v
 
 
 ### how you can check api
- step-1 : open Postman app or any other.
- step-2: paste the given api adress on url bar.
- step-3: select api method type
- step-4: click on send and you will get api response.
+ step-1 : open Postman app or any other.<br/>
+ step-2: paste the given api adress on url bar.<br/>
+ step-3: select api method type<br/>
+ step-4: click on send and you will get api response.<br/>
