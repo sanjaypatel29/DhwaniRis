@@ -33,8 +33,10 @@ step-2: open html file and run this file in any browser or click on go line in v
  get state(get method): http://localhost:5000/api/state
 
  post district(post method): http://localhost:5000/api/addDistrict/:stateName
+ <br/>(example: http://localhost:5000/api/addDistrict/bihar)
 
  get district(get method): http://localhost:5000/api/district/:stateName
+ <br/> (example: http://localhost:5000/api/district/bihar)
 
  post child(post method): http://localhost:5000/api/addChild
 
