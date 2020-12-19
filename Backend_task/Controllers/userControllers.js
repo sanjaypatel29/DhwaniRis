@@ -94,6 +94,7 @@ const loginUser = async (req, res) => {
 const logoutUser = (req, res) => {
     res.json({
         isAuth: false,
+        authToken: "",
         error: false,
         message: 'User Logout successfully'
     })
