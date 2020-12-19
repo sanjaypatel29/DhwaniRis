@@ -61,12 +61,18 @@ const loginUser = async (req, res) => {
             throw new Error("Account doesn't exists");
         }
 
+        //compairing password
         const passwordCheck = await bcrypt.compare(password, user.password);
 
         if (passwordCheck) {
-            const { userNameDb } = user;
-            const data = { userName: userNameDb };
-            const authToken = jwt.sign(data, process.env.SECRET_KEY_TO_ACCESS);
+            const userName = user.userName
+            const data = { name: userName }
+
+            //for genrate authToken
+            const authToken = jwt.sign(data, process.env.SECRET_KEY_TO_ACCESS, {
+                expiresIn: "120s"
+            });
+
             res.json({
                 isAuth: true,
                 error: false,

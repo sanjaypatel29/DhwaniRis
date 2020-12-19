@@ -2,7 +2,7 @@ const { stateDataValidator, childDataValidator } = require("../Validation/valida
 const StateData = require("../Models/stateData")
 const ChildData = require("../Models/childData");
 
-//  state post method for add state name
+//  state post method to add state name
 const poststateData = async (req, res) => {
     try {
         const { stateName } = req.body;
@@ -33,7 +33,7 @@ const poststateData = async (req, res) => {
     }
 }
 
-//  state get method for get all state name
+//  state get method to get all state name
 const getAllstate = async (req, res) => {
     try {
         const stateData = await StateData.find()
@@ -47,7 +47,7 @@ const getAllstate = async (req, res) => {
     }
 }
 
-//  District post method for add District name
+//  District post method to add District name
 const postDistrict = async (req, res) => {
     try {
         const { districtName } = req.body;
@@ -72,7 +72,7 @@ const postDistrict = async (req, res) => {
     }
 };
 
-//  disticrt get method for get all district name
+//  disticrt get method to get all district name
 const getAllDistrict = async (req, res) => {
     const state = await StateData.findOne({ stateName: req.params.stateName });
     const District = state.district
@@ -87,7 +87,7 @@ const getAllDistrict = async (req, res) => {
     }
 };
 
-//  child post method for add child Detail
+//  child post method to add child Detail
 const postChild = async (req, res) => {
     const { error } = childDataValidator(req.body);
     if (error) {
@@ -113,7 +113,7 @@ const postChild = async (req, res) => {
     }
 }
 
-//  child get method for get all child Detail
+//  child get method to get all child Detail
 const getChild = (req, res) => {
     ChildData.find()
         .then((childData) => (childData))
