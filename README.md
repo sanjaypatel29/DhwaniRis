@@ -22,29 +22,29 @@ step-2: Open html file and run this file in any browser or click on go line in v
  step-3: Open terminal and run server.js (node server.js )<br/>
 
  ### All api address
- user Register(post method): http://localhost:5000/api/user/register 
+ user Register(POST method): http://localhost:5000/api/user/register 
 
- user login(post method): http://localhost:5000/api/user/login
+ user login(POST method): http://localhost:5000/api/user/login
 
- user logout(get method): http://localhost:5000/api/user/logout
+ user logout(GET method): http://localhost:5000/api/user/logout
 
- post state(post method): http://localhost:5000/api/addState
+ Post state(POST method): http://localhost:5000/api/addState
 
- get state(get method): http://localhost:5000/api/state
+ Get state(GET method): http://localhost:5000/api/state
 
- post district(post method): http://localhost:5000/api/addDistrict/:stateName
+ Post district(POST method): http://localhost:5000/api/addDistrict/:stateName
  <br/>(example: http://localhost:5000/api/addDistrict/bihar)
 
- get district(get method): http://localhost:5000/api/district/:stateName
+ Get district(GET method): http://localhost:5000/api/district/:stateName
  <br/> (example: http://localhost:5000/api/district/bihar)
 
- post child(post method): http://localhost:5000/api/addChild
+ Post child(POST method): http://localhost:5000/api/addChild
 
- get child(get method): http://localhost:5000/api/child
+ Get child(GET method): http://localhost:5000/api/child
 
 
 ### how you can check api
- step-1 : open Postman.<br/>
+ step-1 : open postman.<br/>
  step-2: paste the given api adress on url bar.<br/>
  step-3: select Correct api method type<br/>
  step-4: click on send and you will get api response.<br/>
