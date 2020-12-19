@@ -2,24 +2,24 @@
 
 ### How to run these 3 assignments.
 
-### first clone the Repository using this adress
+### First clone the Repository using this address
  repo address: (https://github.com/sanjaypatel29/DhwaniRis.git)
 
-## For Frontend_task 1
+## For Frontend_task_1
 
-step-1: go to frontend-task-1/creditcard  (cd Frontend-task-1/creditcard/)<br/>
+step-1: go to Frontend-task-1/creditcard  (cd Frontend_task_1/creditcard/)<br/>
 step-2: install node module<br/>
-step-3: run npm start (it will redirect to application page on browser)<br/>
+step-3: open terminal and run npm start (it will redirect to application page on browser)<br/>
 
 
-## For Frontend_task 2
-step-1: go to frontend-task-2 <br/>
+## For Frontend_task_2
+step-1: go to Frontend_task_2  (cd Frontend_task_2/creditcard/)<br/>
 step-2: open html file and run this file in any browser or click on go line in vsCode.<br/>
 
 ## For Backend_task
  step-1: got to Backend Task ( cd Backend_task )<br/>
  step-2: install node module in backend_task<br/>
- step-3: run server.js (node server.js )<br/>
+ step-3: open terminal and run server.js (node server.js )<br/>
 
  ### All api address
  user Register(post method): http://localhost:5000/api/user/register 
